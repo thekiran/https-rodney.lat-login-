@@ -1,3 +1,6 @@
+Tarafımca yapılan teknik inceleme ve sorgulamalar sonucunda rodney.lat alan adına bağlı bir web uygulamasında, kullanıcı verilerinin yetkisiz şekilde erişilebilir haldedir. İlgili site üzerinde yapılan incelemelerde, bir panel / sorgu ekranı aracılığıyla kişilere ait verilerin sorgulanabildiği bu verileri izinsiz bir şekilde sunmaktadır. Ayrıca site trafiğinin HTTP 307 yönlendirmesi ve “Via: 1.0 middlebox” başlığı ile farklı bir IP adresine (88.255.216.16) yönlendirildiği görülmüştür. Bu durum, kullanıcıların siteye girdiklerinde farkında olmadan başka bir sistemle etkileşime sokulduğunu göstermektedir. Bu GitHub projesi https://github.com/thekiran/https-rodney.lat-login- adlı açık kaynak repository’sidir. Proje içerisindeki README dosyasında rodney.lat alan adına dair WHOIS bilgileri ve bazı ağ tarama çıktıları yer almaktadır.
+
+
 <img width="2557" height="1373" alt="image" src="https://github.com/user-attachments/assets/13a4722c-2765-43bb-82b9-212229a67bc0" />
 
 <img width="2557" height="1373" alt="image" src="https://github.com/user-attachments/assets/17748513-8567-435b-a5ee-547ba262de88" />
