@@ -137,4 +137,37 @@ API count exceeded - Increase Quota with Membership(venv) k-ran@k-ran-Precurl -v
 < Connection: close
 
 
+Elbette. Aşağıdaki ASCII diyagram, senin loglarda görünen akışı (rodney.lat → middlebox → 88.255.216.16/landpage) net şekilde çiziyor:
+```
+```text
+          Kullanıcı (curl / browser)
+                   |
+                   |  HTTP GET http://rodney.lat/
+                   v
+        +---------------------------+
+        |   Cloudflare Edge (DNS)   |
+        |  A: 104.21.28.253         |
+        |  A: 172.67.147.240        |
+        +---------------------------+
+                   |
+                   |  Yanıt (Response)
+                   |  HTTP/1.1 307 Temporary Redirect
+                   |  Via: 1.0 middlebox
+                   |  Location: http://88.255.216.16/landpage?...
+                   v
+        +---------------------------+
+        |     MIDDLEBOX (ARACI)     |
+        |  - Trafiği yakalıyor      |
+        |  - Yönlendirme basıyor    |
+        +---------------------------+
+                   |
+                   |  Redirect hedefi
+                   v
+        +---------------------------+
+        |  88.255.216.16 (TR ISP)   |
+        |  /landpage?op=1&ms=...    |
+        |  (karşılama / yönlendirme |
+        |   sayfası gibi duruyor)   |
+        +---------------------------+
+
 ```
