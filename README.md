@@ -1,3 +1,6 @@
+
+<img width="2557" height="1373" alt="image" src="https://github.com/user-attachments/assets/17748513-8567-435b-a5ee-547ba262de88" />
+
 ```
 Domain Name: RODNEY.LAT
 Registry Domain ID: D607421070-CNIC
