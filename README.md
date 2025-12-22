@@ -7,6 +7,9 @@ Tarafımca yapılan teknik inceleme ve sorgulamalar sonucunda rodney.lat alan ad
 
 <img width="2557" height="1373" alt="image" src="https://github.com/user-attachments/assets/17748513-8567-435b-a5ee-547ba262de88" />
 
+<img width="655" height="343" alt="resim" src="https://github.com/user-attachments/assets/ed4ede52-4d15-4a54-82a8-91ed599ce23d" />
+
+
 ```
 Domain Name: RODNEY.LAT
 Registry Domain ID: D607421070-CNIC
